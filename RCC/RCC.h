@@ -8,6 +8,13 @@
 #ifndef RCC_H_
 #define RCC_H_
 
+// Dostepne opcje ustawienia taktowania:
+// dla M0:
+// HSE_8MHZ_SYSCLK_48MHZ_M0
+// dla M3:
+// HSE_8MHZ_SYSCLK_72MHZ_M4
+
+
 /*
  * \brief Inicjalizacja zegara systemowego zgodnie z makrem z pliku pliku konfiguracyjnego.
  */
